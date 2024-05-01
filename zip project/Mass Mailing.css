@@ -1,0 +1,186 @@
+body{
+    background-image: linear-gradient(to right top, #e81cff, #cb3aff, #ac4aff, #8b54ff, #665bff, #4570ff, #2181ff, #008fff, #00abff, #00c4ff, #00daff, #60efff);
+}
+@font-face {
+    font-family: 'Whyte Inktrap';
+    src: url('WhyteInktrap-Bold.eot');
+    src: local('Whyte Inktrap Bold'), local('WhyteInktrap-Bold'),
+        url('WhyteInktrap-Bold.eot?#iefix') format('embedded-opentype'),
+        url('WhyteInktrap-Bold.woff2') format('woff2'),
+        url('WhyteInktrap-Bold.woff') format('woff'),
+        url('WhyteInktrap-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+.icon{
+    width: 60px;
+    float: left;
+    height: 40px;
+    font-family:Whyte Inktrap;
+    margin-left: 12px;
+    text-decoration: none;
+  }
+  .icon h2,a{
+    font-family:Whyte Inktrap;
+    margin-bottom:30px;
+    margin-top:2px;
+    text-decoration: none;
+  }
+  a:link{
+    color: black;
+  }
+  a:visited{
+    color: black;
+  }
+  a:hover{
+    color:black;
+  }
+  a:active{
+    color: black;
+  }
+
+.main a{
+    color: black;
+}
+.mass h1{
+    font-family:Whyte Inktrap;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.mass p{
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+}
+.button1:hover{
+    background: #fff;
+    box-shadow:
+    0 0 60px 20px #fff,
+    0 0 100px 40px #f0f, 
+    0 0 120px 50px #0ff; 
+}
+.button2:hover{
+    background: #fff;
+    box-shadow:
+    0 0 60px 20px #fff,
+    0 0 100px 40px #f0f, 
+    0 0 120px 50px #0ff; 
+}
+.button3:hover{
+    background: #fff;
+    box-shadow:
+    0 0 60px 20px #fff,
+    0 0 100px 40px #f0f, 
+    0 0 120px 50px #0ff; 
+}
+.button1{
+    background-color: beige;
+    border-radius: 5px;
+    height: 470px;
+    width: 270px;
+    margin-left:190px;
+    text-align: center;
+    display: inline-block;
+    padding-block-end: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    backdrop-filter: blur(80px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.button2{
+    margin-left: 30px;
+    background-color: beige;
+    border-radius: 5px;
+   display: inline-block;
+    width: 270px;
+    height: 470px;
+    text-align: center;
+    padding-block-end: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    backdrop-filter: blur(80px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}
+.button3{
+    margin-left: 30px;
+    background-color: beige;
+    border-radius: 5px;
+    display: inline-block;
+    width: 270px;
+    height: 470px;
+    text-align: center;
+    padding-block-end: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    backdrop-filter: blur(80px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.text-box{
+    
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main2 h3,para1{
+    margin-top:-250px;
+}
+.para1{
+    color: black;
+    text-align: left;
+    margin-left:750px;
+    font-size: 16px;
+}
+.main2 h3{
+    background-color:rgba(255,255,255,.2);
+    border-radius: 14px;
+    margin-right:90px;
+}
+.media-body h3{
+    background-color:rgba(255,255,255,.2);
+    border-radius: 14px;
+}
+.media-heading{
+    color: black;
+    text-align: left;
+    font-size:24px;
+    font-weight: bold;
+    margin-left:750px;
+}
+.media-left img{
+    margin-left:55px;
+}
+.para{
+    float: left; 
+    font-size: 16px;
+    color: black;
+    margin-left:30px;
+}
+.media3{
+    float: left;
+    color: black;
+    font-size:24px;
+    font-weight: bold;
+    margin-left:30px;
+}
+.media-right img{
+    margin-right:70px;
+}
+.main2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.media-body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -700px;
+}
