@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(to right top, #e81cff, #cb3aff, #ac4aff, #8b54ff, #665bff, #4570ff, #2181ff, #008fff, #00abff, #00c4ff, #00daff, #60efff);
+    margin-top:700px;
+}
+.login-section{
+    /* background: #dad7d7; */
+    /* border: 2px solid #ff0000; */
+height: 590px;
+width: 490px;
+position: absolute;
+left: 50%;
+top:50%;
+transform: translate(-50%,-50%);
+backdrop-filter: blur(5px);
+border-radius: 10px;
+transition: .3s;
+border: 2px solid rgba(255, 255, 255, 0.29);
+/* overflow-y: scroll; */
+}
+.login-section:hover{
+    background: #fff;
+    box-shadow:
+    0 0 60px 20px #fff,
+    0 0 100px 50px #f0f, 
+    0 0 140px 70px #0ff;  
+}
+.login-section .formbox{
+    /* position: absolute; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100%;
+    width: 100%; */
+    
+
+}
+.formbox form{
+    padding-left:25px;
+}
+.formbox{
+    /* border: 2px solid black; */
+    height: 377px;
+width: 490px;
+overflow-y: auto;
+padding-top:-10px;
+overflow-x: hidden;
+
+}
+.formbox::-webkit-scrollbar{
+    display: none;
+}
+.formbox .input-box{
+    width: 440px;
+    height: 50%;
+    border-bottom: 2px solid black ;
+    margin: 30px 0 ;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none; 
+    outline: none;
+    font-size: px;
+    padding-right: 28px;
+color: black;
+}
+.input-box label{
+    position: absolute;
+    top: -45%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.input-box .icon{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~label{
+    top: -9px;
+}
+.header{
+    padding-top:2px ;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+.basic{
+    margin: 10px;
+    text-align:center;
+}
+.dropdown{
+    width: 100%;
+    ;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.save-button{
+    padding: 10px;
+    font-size: 15px;
+    border-radius:32px;
+    border: none;
+    background: rgba(255,255,255,.2);
+    color: black;
+    cursor: pointer;
+    font-weight:600;
+}
+.dis-button{
+    padding: 10px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    color: black;
+    font-weight:600;
+}

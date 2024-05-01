@@ -1,0 +1,90 @@
+
+body{
+    background-image: linear-gradient(to right top, #e81cff, #cb3aff, #ac4aff, #8b54ff, #665bff, #4570ff, #2181ff, #008fff, #00abff, #00c4ff, #00daff, #60efff);
+}
+.icon{
+    width: 60px;
+    float: left;
+    height: 40px;
+    font-family:Whyte Inktrap;
+    margin-left: 12px;
+  }
+  .icon h2,a{
+    font-family:Whyte Inktrap;
+    margin-bottom:30px;
+    margin-top:2px;
+    text-decoration: none;
+  }
+  a:link{
+    color: black;
+  }
+  a:visited{
+    color: black;
+  }
+  a:hover{
+    color:black;
+  }
+  a:active{
+    color: black;
+  }
+
+.imgbox img{
+    width:400px;
+    height:520px;
+    margin-left: 180px;
+    margin-top: 55px;
+    border-radius: 16px;
+    opacity: 0.9;
+}
+.info{
+    margin-left: 650px;
+    margin-right: 210px;
+    margin-top:-560px;
+    margin-bottom:10px;
+    padding:12px;
+    background-color: #fff;
+    border:1.5px white;
+    border-style: solid;
+    border-radius:16px;
+    opacity: 0.8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.info h2,a{
+    font-family:Whyte Inktrap;
+    margin-bottom:30px;
+    margin-top:2px;
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:black;
+}
+a:active{
+    color: black;
+}
+.info p,img{
+    margin-left: 10px;
+    display: inline-block;
+}
+.info a img{
+    width:30px;
+    height:30px;
+    padding: 12px;
+}
+.info img{
+    width:30px;
+    height:30px;
+    padding: 12px;
+}
+.ico img{
+    height:120px;
+    width:140px;
+    border-radius:32px;
+    margin-left: 90px;
+}
