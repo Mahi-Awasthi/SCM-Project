@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital@1&display=swap');
+body{
+    background-image: linear-gradient(to right top, #e81cff, #cb3aff, #ac4aff, #8b54ff, #665bff, #4570ff, #2181ff, #008fff, #00abff, #00c4ff, #00daff, #60efff);
+}
+.icon{
+    width: 60px;
+    float: left;
+    height: 40px;
+    font-family:Whyte Inktrap;
+  }
+  .icon h2,a{
+    font-family:Whyte Inktrap;
+    margin-bottom:30px;
+    margin-top:2px;
+    text-decoration: none;
+    margin-left:20px;
+  }
+  a:link{
+    color: black;
+  }
+  a:visited{
+    color: black;
+  }
+  a:hover{
+    color:black;
+  }
+  a:active{
+    color: black;
+  }
+.main{
+    margin: 10px;
+    border-radius: 12px;
+    margin-top:50px;
+    margin-bottom: 115px;
+    height: 450px;
+    width: 700px;
+    margin-left:300px;
+    background-color: #fff;
+    box-shadow: 4px 4px 3px 4px rgb(208, 195, 195); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity:0.8;
+}
+.heading{
+    margin-left:220px;
+    color:#00265d ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraph{
+    color: #244b82;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.link{
+    padding: 240px;
+    font-size:25px;
+    margin-left:-18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #244b82;
+    
+}
+.icon1{
+    padding-left: 300px;
+    padding-top: 19px;
+}
+.button{
+    height: 50px;
+    width: 140px;
+    font-size: medium;
+ color: #fff;
+ border: white;
+ background-color: rgb(0, 200, 255);
+ border-radius: 12px;
+ letter-spacing: 3px;
+ margin-left: 280px;
+ position: relative;
+ top: 28px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.button:hover{
+    background-color: #00265d;
+}
